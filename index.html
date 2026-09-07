@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtue Forge | Shaping Character & Excellence</title>
+    <style>
+        /* CSS Reset & Basic Setup */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #1e293b;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f59e0b; /* Amber/Forge color */
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #f8fafc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #f59e0b;
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #f59e0b;
+            color: #0f172a;
+            padding: 0.8rem 1.8rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #d97706;
+        }
+
+        /* Features Section */
+        .features {
+            background-color: #1e293b;
+            padding: 4rem 2rem;
+        }
+
+        .features-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background-color: #0f172a;
+            padding: 2rem;
+            border-radius: 8px;
+            border-top: 4px solid #f59e0b;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 0.75rem;
+            color: #f8fafc;
+        }
+
+        .feature-card p {
+            color: #94a3b8;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #0b1120;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">Virtue Forge</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <h1>Forge Your Character</h1>
+            <p>Build resilience, discipline, and purpose. Virtue Forge empowers you to cultivate strong habits and align with your highest values.</p>
+            <a href="#features" class="btn">Get Started</a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="features-container">
+                <div class="feature-card">
+                    <h3>Discipline Tracking</h3>
+                    <p>Track your daily habits and build unwavering consistency over time.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Mindset Frameworks</h3>
+                    <p>Access practical tools based on Stoic philosophy and modern psychology.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Community Alliance</h3>
+                    <p>Connect with high-value individuals striving for continuous growth.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Virtue Forge. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
