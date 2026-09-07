@@ -22,7 +22,7 @@
     /* Navigation Bar */
     header {
       background-color: #1e293b;
-      padding: 0.75rem 2rem;
+      padding: 1rem 2rem;
       position: sticky;
       top: 0;
       z-index: 1000;
@@ -45,9 +45,9 @@
     }
 
     .logo img {
-      height: 48px;
+      height: clamp(72px, 12vw, 112px);
       width: auto;
-      max-width: min(520px, 85vw);
+      max-width: min(900px, 96vw);
       object-fit: contain;
       object-position: left center;
       display: block;
